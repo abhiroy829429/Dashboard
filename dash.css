@@ -1,0 +1,131 @@
+.screenContainer{
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-image: linear-gradient(to top right,purple,pink, yellow ,purple, blue );
+    height: 100vh;
+}
+.mainContainer{
+    /* border: 2px solid rgb(197, 18, 18); */
+    box-shadow: 0px 0px 20px 5px gray;
+    border-radius: 25px;
+    background-color: aliceblue;
+    height: 90vh;
+    width: 95%;
+    margin-top: 5vh;
+    
+    /* display: flex;
+    justify-content: center; */
+    
+}
+#welcome {
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-left: 5px;
+
+}
+/* #yoss{
+    margin-top: 50px;
+    margin-right: 50px;
+} */
+
+.mainContainer1{
+     margin-left: 10px; 
+    margin-top: 10px;
+    margin-right: 10px; 
+     box-shadow: 0px 0px 20px 5px gray; 
+    display: flex;
+     justify-content: center; 
+    
+}
+.Dash{
+    color: pink;
+}
+.SideNavbar{
+    display: flex;
+    margin: 2vh;
+
+    
+    /* border: 2px solid black; */
+}
+.main-box {
+    width: 15vw;
+    height: 7vh;
+    /* box-shadow: 0px 0px 2px; */
+    background-color: rgb(255, 252, 249);
+    border-radius: 20px;
+    /* padding: 0.8rem;
+    display: inline-block;
+    margin-top: .8rem; */
+    margin-left: 5.4vh;
+  }
+  
+  .main-content{
+      display: inline-block;
+      margin-left: 1rem;
+      font-size: 17px;
+      
+  }
+  
+  .icon{
+      border-radius: 15px;
+      border: 1px solid black;
+      padding: 8px;
+      font-size: 30px;
+      margin-bottom: 2rem;
+      margin-left: 2rem;
+  }
+  .invoice{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 24%;
+    width: 70.2%;
+    height: 30%;
+    display: flex;
+    /* border: 2px solid black; */
+    /* margin-top: -2px; */
+    
+}
+.invoice img{
+    width: 47.3%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  .invoice .secondimg{
+    margin-left: 40px;
+    width: 47.3%;
+  }
+  .last{
+    /* border: 2px solid black; */
+    position: absolute;
+    height: 20px;
+    top: 80%;
+    left: 28%;
+    width: 68.5%;
+    margin-left: -0.2%;
+    height: 13%;
+    border-radius: 20px;
+    background-color: rgb(255, 252, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  .last span{
+    margin-left: 5px;
+  }
+  .logo{
+    display: flex;
+    padding-right: 20px;
+  }
+  .logo span{
+    margin-left: -8px;
+  }
+  .logo img{
+    margin-top: 20px;
+  }
+.logo .logotext{
+    margin-top: 20px;
+}
